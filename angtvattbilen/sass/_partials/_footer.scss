@@ -1,0 +1,58 @@
+/*_footer.scss */
+
+footer {
+    width: 100%;
+    position: absolute;
+    background-color: $maincolor;
+    margin: auto;
+    a {
+        color: black;
+    }
+}
+
+footer a:hover {
+    color: $darkgreen;
+}
+
+.column {
+    line-height: 30px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 11%;
+    padding-right: 3%;
+    width: 25%;
+    float: left;
+}
+
+.column2 {
+    padding-left: 3%;
+    line-height: 30px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 24.5%;
+    float: right;
+}
+
+.column3 {
+    padding-left: 3%;
+    line-height: 30px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 27%;
+    float: right;
+}
+
+
+/* Under footer */
+
+.bottomOffooter {
+    font-size: 0.8em;
+    text-align: center;
+    background-color: $maincolor;
+    padding: 1%;
+    margin-top: 10%;
+}
+
+h4 {
+    font-weight: bolder;
+}
